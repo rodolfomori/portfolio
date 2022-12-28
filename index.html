@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">    <title>Rodolfo Mori</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+    <title>Rodolfo Mori</title>
 </head>
+
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="home">
         <nav>
             <h2 class="portfolio">Portfo<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale comigo</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
 
@@ -25,14 +30,64 @@
         </div>
     </div>
 
-    <section>
+    <section id="sobre">
         <img src="./img/rodolfo.png">
         <div>
             <h2>Sobre mim</h2>
-            <p>Eu sou um Programador Front End, tenho experiência e conhecimento criando aplicações com HTML, CSS, JavaScript, React e Node.</p>
+            <p>Eu sou um Programador Front End, tenho experiência e conhecimento criando aplicações com HTML, CSS,
+                JavaScript, React e Node.</p>
             <button>Entre em contato</button>
         </div>
     </section>
-    
+
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
+
+        <div class="card-projetos">
+
+            <div class="card">
+                <img src="./img/netflix.png">
+                <h5>Netflix</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://peaceful-starlight-02739b.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/starbucks.png">
+                <h5>Starbucks</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://starbucks-rodolfo.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/crono.png">
+                <h5>Cronometro</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://cronometro-mpdz.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>Rodolfo Mori</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rodolfomori/" target="_blank">
+                <img src="./img/linkedin.png">
+            </a>
+
+            <a href="tel:+5511968290271">
+                <img src="./img/telefone.png">
+            </a>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
